@@ -1,3 +1,22 @@
+# Projeto E-Commerce de Maquiagem
+
+## Objetivo
+O objetivo do projeto é a criação de um e-commerce, no caso deste, criaremos um e-commerce para a venda de Maquiagens.
+
+## Integrantes do projeto
+Alex Machado
+Cíntia Soares
+
+## Atualizações feitas no projeto
+
+13/04/23-20/04/23
+Criação do App utilizando CLI, logo após, o projeto foi enviado para o Github.
+
+18/04/23-25/04/236
+Foi criado o menu do e-commerce contendo as principais informações.
+
+## Abaixo temos as informações gerais dos arquivos (Readme padrão)
+_____________________________________________________________________________________________________________________
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
