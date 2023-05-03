@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .itensContent{
     display: flex;
     flex-direction: row;
     gap: 30px;
-
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .ImageItem{
-    width: 150px;
-    height: 200px;
+    width: 8rem;
+    height: 12rem;
+    justify-items: center;
 }
 
 .countItens{
@@ -25,7 +28,8 @@ flex-direction: column;
 }
 
 .inputNumber{
-    width: 30px;
+    width: 2rem;
+    text-align: center;
 }
 .addButton:disabled{
     font-size: 20px;
