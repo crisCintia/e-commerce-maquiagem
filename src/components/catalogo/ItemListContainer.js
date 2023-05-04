@@ -4,14 +4,33 @@ import ListItensContent from "../listItens/ListItensContents";
 function ItemListContainer() {
     const [Loading, setLoading] = useState(true)
     
-    useEffect(
+    const promessa = () => new Promise ((resolve, reject) => {
+        if (Loading=false) {
+            resolve(<ListItensContent/>)    
+        };
+        reject ("Produto não encontrado!")
+    })
+
+    promessa()
+    .then (resolve => <ListItensContent/>)
+    .catch (reject => console.log ("Produto não encontrado!"))
+    .finally(
+        useEffect(
+            () => { 
+                setTimeout(() => {
+                    setLoading(false)
+                },2000)
+            })
+    )
+    
+    /*useEffect(
         () => { 
             setTimeout(() => {
                 setLoading(false)
             },2000)
         },
         []
-    );
+    );*/
 
     if (Loading) {
         return (
