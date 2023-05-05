@@ -15,7 +15,7 @@ function CountItens({stock="10",initial="1",onAdd}){
         <BsPlusSquare stock={10} className= "plusButton"  onClick={()=>{setIntensNumber(anterior=>anterior+1)}}/>
         </div>     
                      
-        <button className="addButton"  onClick={()=>{
+        <button className="addButton" class="btn btn-secondary btn-sm"  onClick={()=>{
             alert(itensNumber + " Produto(s) adicionado ao carrinho")
         }}>Adicionar ao carrinho </button>
         </div>

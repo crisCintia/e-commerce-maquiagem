@@ -14,7 +14,7 @@ function NavBar() {
         <nav>
             <div className="container">
             <NavBarLogin/>
-            <h1 className="logo"><a className='menuLink' href='#'>Nome da marca</a></h1>
+            <h1 className="logo"><a className='menuLink' href='#'>AC Make Up</a></h1>
             <NavBarBusca/>
             <NavBarCarrinho/>            
             </div>
